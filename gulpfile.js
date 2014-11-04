@@ -95,6 +95,11 @@ gulp.task('watch', function () {
   gulp.watch(s.test, [ 'test' ]);
 });
 
+gulp.task('coveralls', [ 'lint', 'test' ], function () {
+  return gulp.src('coverage/lcov.info')
+    .pipe($.coveralls());
+});
+
 gulp.task('default', [ 'watch' ]);
 
 /* Gulp task logic */
