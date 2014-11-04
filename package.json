@@ -1,0 +1,36 @@
+{
+  "name": "expands",
+  "version": "1.0.0",
+  "description": "Expands variable placeholders in objects.",
+  "keywords": [
+    "expand",
+    "template",
+    "placeholder"
+  ],
+  "license": "MIT",
+  "author": "Meo <i@meo.guru> (http://meo.guru)",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "main": "lib/expands.js",
+  "repository": "meoguru/expands",
+  "scripts": {
+    "test": "node node_modules/.bin/gulp lint test",
+    "coveralls": "node node_modules/.bin/gulp coveralls"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.8",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.3.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.7.1",
+    "gulp-mocha": "^1.1.0",
+    "gulp-notify": "^2.0.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^1.0.3",
+    "istanbul": "^0.3.2",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1"
+  }
+}
