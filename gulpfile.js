@@ -8,8 +8,7 @@ var $ = require('gulp-load-plugins')();
 var constant = {
   dir: {
     lib: 'lib',
-    test: 'test',
-    testResources: 'test/resources'
+    test: 'test'
   },
   file: {
     testSetup: 'test/setup.js'

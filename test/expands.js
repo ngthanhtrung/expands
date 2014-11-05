@@ -32,7 +32,7 @@ describe('expand', function () {
         ]);
   });
 
-  it('should expand deep path', function () {
+  it('should expand deep path correctly', function () {
     var ret = expand({
       foo: {
         bar: {
