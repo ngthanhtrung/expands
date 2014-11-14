@@ -132,7 +132,7 @@ This module is released under [MIT license][repo-license].
 [meta-url-gratipay]: https://gratipay.com/meoguru
 [meta-img-gratipay]: https://img.shields.io/gratipay/meoguru.svg?style=flat
 [meta-url-ga]: https://github.com/igrigorik/ga-beacon
-[meta-img-ga]: https://ga-beacon.appspot.com/UA-54698248-1/repo/README.md
+[meta-img-ga]: https://ga-beacon.appspot.com/UA-54698248-3/repo/README.md
 
 [//]: # (Authors and contributors URLs)
 [url-meoguru]: http://meo.guru
