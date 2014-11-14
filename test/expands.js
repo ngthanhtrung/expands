@@ -2,7 +2,7 @@
 
 var expand = require('..');
 
-describe('expand', function () {
+describe('expands', function () {
   it('should expand string correctly', function () {
     var ret = expand({
       message: 'Welcome {name}!',

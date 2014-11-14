@@ -114,15 +114,13 @@ This module is released under [MIT license][repo-license].
 [url-npm]: https://www.npmjs.org/
 [url-editorconfig]: http://editorconfig.org
 [url-jshint-docs]: http://www.jshint.com/docs
-[url-traceur]: https://github.com/google/traceur-compiler
-[url-source-map-support]: https://github.com/evanw/node-source-map-support
 
 [//]: # (Repository URLs and resources)
-[repo-url-new-issue]: https://github.com/meoguru/traceur-source-maps/issues/new
-[repo-url-pull-request]: https://github.com/meoguru/traceur-source-maps/pulls
-[repo-license]: https://github.com/meoguru/traceur-source-maps/blob/master/LICENSE
-[repo-editorconfig]: https://github.com/meoguru/traceur-source-maps/blob/master/.editorconfig
-[repo-jshintrc]: https://github.com/meoguru/traceur-source-maps/blob/master/.jshintrc
+[repo-url-new-issue]: https://github.com/meoguru/expands/issues/new
+[repo-url-pull-request]: https://github.com/meoguru/expands/pulls
+[repo-license]: https://github.com/meoguru/expands/blob/master/LICENSE
+[repo-editorconfig]: https://github.com/meoguru/expands/blob/master/.editorconfig
+[repo-jshintrc]: https://github.com/meoguru/expands/blob/master/.jshintrc
 
 [//]: # (Repository meta information)
 [meta-url-npm]: https://npmjs.org/package/expands

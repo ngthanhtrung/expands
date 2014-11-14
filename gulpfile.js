@@ -71,7 +71,7 @@ gulp.task('test', function (cb) {
     }))
     .on('error', $.notify.onError({
       title: 'Test',
-      message: '<%= error.message}'
+      message: '<%= error.message %>'
     }))
     .on('error', onError)
     .on('finish', function () {
@@ -91,7 +91,7 @@ gulp.task('watch', function () {
   test($.watch(s.testSets));
 
   // Tests all on code and test resource changes
-  gulp.watch(s.test, [ 'test' ]);
+  gulp.watch(s.code.concat(s.testResources), [ 'test' ]);
 });
 
 gulp.task('coveralls', [ 'lint', 'test' ], function () {
@@ -145,7 +145,7 @@ function test(src) {
     .pipe($.mocha())
     .on('error', $.notify.onError({
       title: 'Test',
-      message: '<%= error.message}'
+      message: '<%= error.message %>'
     }))
     .on('error', onError);
 }
