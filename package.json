@@ -1,6 +1,6 @@
 {
   "name": "expands",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expands variable placeholders in objects.",
   "keywords": [
     "expand",
